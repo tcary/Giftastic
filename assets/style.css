@@ -1,0 +1,34 @@
+body {
+	background-color: #dda1bd;
+	margin: 0px;
+	padding: 0px;
+}
+
+.buttons-view {
+	margin: 20px 0px 20px 0px;
+}
+
+.gifDiv {
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.topic {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: #21237c;
+	color: rgb(187, 183, 183);
+}
+
+#add-topic {
+	background-color:#21237c;
+	color: rgb(187, 183, 183);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#topic-input {
+	width: 100%;
+	margin-top: 2px;
+}
