@@ -20,7 +20,7 @@ $("#add-topic").on("click", function () {
     $.ajax({
         url: queryURL,
         method: "GET"
-    }).done(function (response) {
+    }).then(function (response) {
         if (response.data.length == 0) {
             alert("Sorry, no GIF's found, try a different topic");
         } else if (topics.indexOf(topic) != -1) {
@@ -40,7 +40,7 @@ function display() {
     $.ajax({
         url: queryURL,
         method: "GET"
-    }).done(function (response) {
+    }).then(function (response) {
         $(".gifs-view").empty();
         for (var i = 0; i < response.data.length; i++) {
             var gifDiv = $("<div>");
